@@ -5,7 +5,7 @@ public class ProductBean {
     private String titre;
     private String description;
     private String image;
-    private Double prix;
+    private Integer prix;
 
     public ProductBean()
     {
@@ -44,12 +44,12 @@ public class ProductBean {
     {
         this.image = image;
     }
-    public Double getPrix()
+    public Integer getPrix()
     {
         return prix;
     }
 
-    public void setPrix(Double prix)
+    public void setPrix(Integer prix)
     {
         this.prix = prix;
     }
